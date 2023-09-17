@@ -1,0 +1,25 @@
+#pp{
+	border-radius: 50%;
+	width: inherit;
+}
+h2{
+	text-align: center;
+	margin-top: 40px;
+
+}
+form{
+	text-align: center;
+}
+.banner{
+	display: flex;
+    background-color: #8b008b;
+    width: fit-content;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-radius: 0px 20px 20px 0px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+footer{
+	margin-top: 70px;
+}

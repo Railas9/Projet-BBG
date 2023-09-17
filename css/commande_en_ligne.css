@@ -1,0 +1,21 @@
+article{
+	width: 100%;
+}
+
+#livraison{
+	background-image: url("../img/livraison.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+#recup{
+	background-image: url("../img/emporter.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+h2{
+	margin: auto;
+	margin-left: 10%;
+	padding-top:5em;
+}

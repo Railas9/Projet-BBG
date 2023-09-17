@@ -1,0 +1,17 @@
+.list{
+	height: 217px;
+    overflow-x: auto;
+    border: 2px solid;
+    width: 50%;
+    margin: auto;
+}
+section{
+	padding: 2em;
+}
+@media all and (max-width: 800px)
+{
+    .list{
+    	width: 90%;
+    }
+
+}

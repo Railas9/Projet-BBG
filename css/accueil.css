@@ -1,0 +1,99 @@
+h2{
+    font-family: 'Milkshake';
+    text-align: center;
+}
+
+#restaurant{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#presentation{
+    text-align: center;
+    width: 45%;
+}
+
+#devanture{
+    width: 45%;
+}
+
+#devanture>img{
+    width: 100%;
+}
+
+#map{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#map>p{
+    text-align: center;
+    margin-bottom: 127px;
+}
+
+#google_api{
+    width: 45%;
+    height: 340px;
+}
+
+#service h2{
+    text-align: center;
+}
+
+#serv3{
+    display: flex;
+    justify-content: space-around;
+}
+
+#serv3 > img{
+    width: 10%;
+}
+.slide{
+    display: flex;
+}
+.avis{
+    border:2px solid red;
+    margin: 50px;
+    text-align: center;
+    border: 2px solid #75063b;
+    border-radius: 0px 30px 0px 30px;
+    background: linear-gradient(48deg, rgba(210,24,153,1) 42%, rgba(226,141,221,1) 75%);
+    padding: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.star{
+    display: flex;
+    justify-content: center;
+}
+.pp{
+    width: 40px;
+    margin: auto;
+}
+.star>img{
+    width: 10%;
+}
+article{
+    overflow-x: hidden;
+}
+@media all and (max-width: 800px)
+{
+	#restaurant{
+    	flex-wrap: wrap-reverse;
+    }
+    #devanture{
+    	width: 80%;
+    }
+    #presentation{
+    	width: 70%;
+    }
+    #map{
+        flex-wrap: wrap;
+    }
+    #google_api{
+        width: 80%
+    }
+
+}

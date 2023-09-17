@@ -1,0 +1,98 @@
+@font-face{
+	font-family: 'Milkshake';
+	src: url('../fonts/Milkshake 400.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+	margin: 0;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+
+/*haut de page*/
+
+.top{
+	display: flex;
+}
+#empty{
+	width: 40%;
+}
+.logo{
+	width: 20%;
+    display: flex;
+    align-items: center;
+}
+.logo>img{
+    width: 100%;
+}
+#connexion{
+	width: 40%;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#connexion > *{
+	margin-top: 0.5rem;
+	margin-right: 1rem;
+}
+
+/*navigation*/
+#navig{
+	display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+nav{
+	background-color: #8b008b;
+}
+ul a{
+    color: white;
+}
+
+footer{
+	background-color: #8b008b;
+	padding: 2rem;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+#Contact{
+	width: 300px;
+	text-align: center;
+}
+
+#reseaux{
+    text-align: center;
+    width: 429px;
+}
+#reseaux figure{
+    display: flex;
+    justify-content: space-between;
+}
+#reseaux figure > img{
+    width: 20%;
+}
+
+@media all and (max-width: 800px)
+{
+
+    footer{
+    	flex-wrap: wrap;
+    }
+    #reseaux{
+    	width: 100%;
+    }
+    #navig{
+    	flex-direction: column;
+    	height: 11em;
+    	text-align: center;
+    }
+}

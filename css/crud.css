@@ -1,0 +1,17 @@
+#ancre{
+	position: fixed;
+	right: 0px;
+    bottom: 0px;
+    margin-bottom: 1em;
+}
+#ancre a{
+	margin: 1em;
+	color: white;
+}
+h2{
+	text-align: center;
+}
+section{
+	overflow-y: auto;
+	text-align: center;
+}
