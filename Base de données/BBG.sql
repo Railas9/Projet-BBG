@@ -141,8 +141,8 @@ CREATE TABLE avis(
 INSERT INTO `visiteur` 
 (`id_visiteur`,`nom`,`prenom`,`telephone` ,`numero_rue` ,`adresse` ,
 	`ville` ,`code_postal` ,`mail` ,`mot_de_passe` ,`status` ,`date_inscription`,`profil_pic`)
-	VALUES (1, "Benoun","Railas","XXXXXX", 0, "XXXXXX","XXXXXX", 0, "railas.benoun92@gmail.com",
-					 "e10adc3949ba59abbe56e057f20f883e", 1, "2021-01-01","profilpic/no_profil.png");
+	VALUES (1, "Test","Test","XXXXXX", 0, "XXXXXX","XXXXXX", 0, "test@test.com",
+					 "ef1621a09d0ce69ea842a00a7f447edd", 1, "2021-01-01","profilpic/no_profil.png");
 
 INSERT INTO `categorie` (`id_categorie`,`nom`)
 	VALUES 
